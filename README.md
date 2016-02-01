@@ -7,7 +7,8 @@ Development best practices for Intrepid
 	* [Objective-C](https://github.com/IntrepidPursuits/objective-c-style-guide)
 * Android
 	* [Android OS Project Style Guide](https://source.android.com/source/code-style.html)
-	* [Intrepid Style Template](android/code_style.md)
+    * [Intrepid Style Template](android/code_style.md)
+    * [Technical Guides](android/technical_guides/technical_guides_home.md)
 * [Ruby](https://github.com/thoughtbot/guides/tree/master/style/ruby)
 * [C#](https://msdn.microsoft.com/en-us/library/Ff926074.aspx)
 
