@@ -10,9 +10,9 @@ We can go one step further and use our custom Views in XML. Not only can we use 
 4. Customize away!
 
 ## Code
-1. Create the following file in your project: main/res/values/attrs.xml
+Step 1. Create the following file in your project: main/res/values/attrs.xml
 
-*`<?xml version="1.0" encoding="utf-8"?>
+`<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="CustomView">
         <attr name="circle_fill_color" format="color" />
@@ -22,9 +22,9 @@ We can go one step further and use our custom Views in XML. Not only can we use 
 
 
 
-2. Create a custom Java class that extends View: CustomView.java
+Step 2. Create a custom Java class that extends View: CustomView.java
 
-*`public class CustomView extends View {
+`public class CustomView extends View {
     private int circleColor;
     private int circleRadius;
     private Paint paint;
@@ -72,9 +72,9 @@ We can go one step further and use our custom Views in XML. Not only can we use 
 
 
 
-3. Add CustomView to the xml layout. MainActivity's layout in this case: activity_main.xml
+Step 3. Add CustomView to the xml layout. MainActivity's layout in this case: activity_main.xml
 
-*`<?xml version="1.0" encoding="utf-8"?>
+`<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
